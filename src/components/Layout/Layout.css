@@ -1,0 +1,20 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+	background-color: rgb(88, 88, 88) !important;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+.navbar-brand{
+	font-family: 'Lakki Reddy', cursive;
+}
+
+.nav-link{
+	display: inline-block;
+	margin: 2px 15px;
+}

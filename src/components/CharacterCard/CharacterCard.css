@@ -1,0 +1,14 @@
+.card{
+    margin: 15px 0;
+    border: 3px solid black;
+}
+
+.card-body{
+    font-family: 'Lakki Reddy', cursive;
+}
+
+.card:hover{
+    background-color: rgb(78, 78, 78);
+    border: 3px solid #35C9DD;
+    color: #35C9DD;
+}

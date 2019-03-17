@@ -1,0 +1,10 @@
+.singleChar{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.displaySingleChar{
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
