@@ -1,11 +1,10 @@
 import React from 'react';
-import Aux from '../../hoc/Aux';
 import { NavLink } from 'react-router-dom'
 import './Layout.css';
 import Header from '../../Header.jpg'
 
 const layout = props => (
-	<Aux>
+	<React.Fragment>
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
 			<NavLink to="/" className="nav-link nav-brand">Rick & Morty</NavLink>
 			<ul className="navbar-nav">
@@ -30,7 +29,7 @@ const layout = props => (
 		<div className="container">
 			{props.children}
 		</div>
-	</Aux>
+	</React.Fragment>
 )
 
 
